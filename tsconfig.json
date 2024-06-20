@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "js",
+    "target": "es2018",
+    "lib": ["es2018", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false, // Don't need this since the api is not expected to be used as a library
+    "checkJs": false,
+    "allowJs": false,
+    "strict": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types/"],
+    "resolveJsonModule": true
+  },
+  "ts-node": {
+    "files": true
+  }
+}
